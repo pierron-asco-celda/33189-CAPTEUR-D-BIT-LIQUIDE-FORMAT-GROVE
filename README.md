@@ -3,16 +3,14 @@
 
 CAPTEUR DE PRESSION DIFFÉRENTIEL AU FORMAT GROVE [33189](https://www.pierron.fr/capteur-de-debit-de-liquide-grove.html)
 
+Ce module, compatible Grove, mesure le débit d'un liquide. Il est basé sur un capteur de débit constitué d'un rotor et d'un capteur à effet hall. Lorsque l'eau passe dans le capteur, la rotation du rotor génère des impulsions en fonction du débit. La fréquence de sortie varie en fonction de la vitesse du rotor.
+
+- Alimentation : 5 à 24 V
+- Consommation : 15 mA
+- Plage de mesure : 0,3 à 6 l/min
+- Diamètre du filet : 1/8''
+
 ![L-33189](/img/L-33189.jpg)
-
-# Installation :
-Créer un nouveau répertoire nommé "Pierron_33188" dans le dossier "libraries" de votre dossier Arduino.
-Y placer tous les fichiers.
-Ou
-télécharger le dépôt en ZIP et dans l'IDE Arduino : Croquis / inclure bibliothèque / ajouter la bibliothèque ZIP.
-
-# Usage :
-Pour utiliser la librairie dans votre propre projet, importez-la avec  *Sketch > Import Library*.
 
 # RESSOURCES À TÉLÉCHARGER :
 
