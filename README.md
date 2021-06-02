@@ -18,9 +18,9 @@ Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/33189-CAP
 
 # Schémas :
 
-![SCH-33189](/img/SCH-33189.png)
+![SCH-33189](/img/SCH-33189.jpg)
 
-![BRD-33189](/img/BRD-33189.png)
+![BRD-33189](/img/BRD-33189.jpg)
 
 # Exemple :
 ### Arduino / C++
