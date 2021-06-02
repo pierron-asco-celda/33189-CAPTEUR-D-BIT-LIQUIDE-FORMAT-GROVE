@@ -1,4 +1,4 @@
-# 33189 CAPTEUR DEBIT LIQUIDE AU FORMAT GROVE
+# 33189 CAPTEUR DÉBIT LIQUIDE AU FORMAT GROVE
 
 
 CAPTEUR DE PRESSION DIFFÉRENTIEL AU FORMAT GROVE [33189](https://www.pierron.fr/capteur-de-debit-de-liquide-grove.html)
@@ -14,13 +14,13 @@ Ce module, compatible Grove, mesure le débit d'un liquide. Il est basé sur un 
 
 # RESSOURCES À TÉLÉCHARGER :
 
-Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/Pierron_33188/blob/master/src/Pierron-33188-Datasheet.pdf)
+Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/33189-CAPTEUR-DEBIT-LIQUIDE-FORMAT-GROVE/blob/main/src/Pierron-33189-Datasheet.pdf)
 
 # Schémas :
 
-![SCH-33188](/img/SCH-33188.png)
+![SCH-33189](/img/SCH-33189.png)
 
-![BRD-33188](/img/BRD-33188.png)
+![BRD-33189](/img/BRD-33189.png)
 
 # Exemple :
 ### Arduino / C++
