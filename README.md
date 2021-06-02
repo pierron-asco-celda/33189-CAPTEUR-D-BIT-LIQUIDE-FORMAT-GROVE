@@ -19,7 +19,6 @@ Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/33189-CAP
 # Schémas :
 
 ![SCH-33189](/img/SCH-33189.jpg)
-
 ![BRD-33189](/img/BRD-33189.jpg)
 
 # Exemple :
@@ -83,4 +82,4 @@ void comptage()
 ```
 ## À propos :
 
-PIERRON ASCO-CELDA (https://www.pierron.fr/).
+PIERRON ASCO-CELDA (https://www.pierron.fr).
