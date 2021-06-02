@@ -1,44 +1,54 @@
-// Baud rate 9600;
+// baud rate 9600;
 
-int sensorPin       = 2;
+int interruption = 0;
+int capteur      = 2;
+
 unsigned int SetPoint = 400;
-float calibrationFactor = 90;
-volatile byte pulseCount = 0;
-float flowRate = 0.0;
-unsigned int flowMilliLitres = 0;
-unsigned long totalMilliLitres = 0;
+float calibration = 90;
 
+volatile byte compteur = 0;
+float debit = 0.0;
+
+unsigned int debitinstantane = 0;
+unsigned long quantitetotal = 0; 
 unsigned long oldTime = 0;
 
-void setup(){
+void setup() {
   Serial.begin(9600);
-  pinMode(sensorPin, INPUT);
-  digitalWrite(sensorPin, HIGH);
+  pinMode(capteur, INPUT);
+  digitalWrite(capteur, HIGH);
+
+  attachInterrupt(interruption, comptage, FALLING);
 }
 
-void loop(){
+void loop() {
   if ((millis() - oldTime) > 1000)
   {
-    flowRate = ((1000.0 / (millis() - oldTime)) * pulseCount) / calibrationFactor;
+    detachInterrupt(interruption);
+    debit = ((1000.0 / (millis() - oldTime)) * compteur) / calibration;
     oldTime = millis();
-    flowMilliLitres = (flowRate / 60) * 1000;
-    totalMilliLitres += flowMilliLitres;
-    
-    Serial.print("Debit instantane: ");
-    Serial.print(flowMilliLitres, DEC);
-    Serial.print("mL/Second");
+    debitinstantane = (debit / 60) * 1000;
+    quantitetotal += debitinstantane;
+    unsigned int frac;
+
+    Serial.print("Débit instantané: ");
+    Serial.print(debitinstantane, DEC);
+    Serial.print("mL/Sec");
     Serial.print("\t");
 
-    Serial.print("Debit Total: ");
-    Serial.print(totalMilliLitres, DEC);
+    Serial.print("Débit total: ");
+    Serial.print(quantitetotal, DEC);
     Serial.println("mL");
     Serial.print("\t");
-    
-    pulseCount = 0;
+
+    if (quantitetotal > 40) {
+    }
+    compteur = 0;
+    attachInterrupt(interruption, comptage, FALLING);
   }
 }
 
-void pulseCounter()
+void comptage()
 {
-  pulseCount++;
+  compteur++;
 }
