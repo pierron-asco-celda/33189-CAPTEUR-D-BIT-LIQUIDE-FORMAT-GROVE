@@ -5,10 +5,19 @@ CAPTEUR DE PRESSION DIFFÉRENTIEL AU FORMAT GROVE [33189](https://www.pierron.fr
 
 Ce module, compatible Grove, mesure le débit d'un liquide. Il est basé sur un capteur de débit constitué d'un rotor et d'un capteur à effet hall. Lorsque l'eau passe dans le capteur, la rotation du rotor génère des impulsions en fonction du débit. La fréquence de sortie varie en fonction de la vitesse du rotor.
 
-- Alimentation : 5 à 24 V
-- Consommation : 15 mA
-- Plage de mesure : 0,3 à 6 l/min
-- Diamètre du filet : 1/8''
+- Tension d’alimentation maximale : 5-12V DC
+- Plage d’écoulement de l’eau : 0,3-6 L/min
+- Diamètre intérieur : 4 mm
+- Diamètre extérieur : 7 mm
+- Taille de la buse Standard: Type 18 (1/8 " / 3.175mm) 
+- Pression d’eau d’épreuve : <0,8 MPa
+- Courant de fonctionnement : 15 mA (DC 5V)
+- Résistance d’isolation: >100 MΩ
+- Précision : ±5 % 
+- L’impulsion de sortie de haut niveau : >4.5 VCC (tension d’entrée CC 5 V)
+- L’impulsion de sortie bas niveau : <0.5 VCC (tension d’entrée CC 5 V)
+- Formule d’écoulement de l’eau : 1L = 5880 ondes carrées
+- Plage d’humidité de travail : 35% ~ 90% HR (pas de gel)
 
 ![L-33189](/img/L-33189.jpg)
 
