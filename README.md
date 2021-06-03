@@ -94,7 +94,7 @@ void comptage()
 
 ```
 
-###Python
+### Python
 ```py
 
 import RPi.GPIO as GPIO
