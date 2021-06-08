@@ -1,4 +1,4 @@
-# 33189 CAPTEUR DÉBIT LIQUIDE AU FORMAT GROVE
+# 33189 Capteur de debit liquide GROVE
 
 
 CAPTEUR DE PRESSION DIFFÉRENTIEL AU FORMAT GROVE [33189](https://www.pierron.fr/capteur-de-debit-de-liquide-grove.html)
