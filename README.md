@@ -23,7 +23,7 @@ Ce module, compatible Grove, mesure le débit d'un liquide. Il est basé sur un 
 
 # RESSOURCES À TÉLÉCHARGER :
 
-Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/33189-CAPTEUR-DEBIT-LIQUIDE-FORMAT-GROVE/blob/main/src/Pierron-33189-Datasheet.pdf)
+Ressource utilisation : [YF-S401](https://github.com/pierron-asco-celda/33189-CAPTEUR-DEBIT-LIQUIDE-FORMAT-GROVE/blob/main/src/Pierron-33189-Datasheet.pdf)
 
 # Schémas :
 
