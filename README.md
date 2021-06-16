@@ -37,7 +37,11 @@ Ressource utilisation : [YF-S401](https://github.com/pierron-asco-celda/33189-CA
 
 ### Arduino / C++
 ```cpp
-// baud rate 9600;*
+/*
+    ** Mesure débit liquide module Grove **
+       PIN 2 Module shield GROVE
+       Moniteur série -> Baud rate 9600.*
+*/
 
 int interruption = 0;
 int capteur      = 2;
